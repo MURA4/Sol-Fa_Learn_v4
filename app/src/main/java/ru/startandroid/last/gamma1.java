@@ -68,6 +68,34 @@ public class gamma1 extends AppCompatActivity {
         RadioButton сdur = (RadioButton)findViewById(R.id.cdur);
         сdur.setOnClickListener(radioButtonClickListener);
 
+        RadioButton soldur = (RadioButton)findViewById(R.id.soldur);
+        soldur.setOnClickListener(radioButtonClickListener);
+
+        RadioButton redur = (RadioButton)findViewById(R.id.redur);
+        redur.setOnClickListener(radioButtonClickListener);
+
+        RadioButton ladur = (RadioButton)findViewById(R.id.ladur);
+        ladur.setOnClickListener(radioButtonClickListener);
+
+        RadioButton midur = (RadioButton)findViewById(R.id.midur);
+        midur.setOnClickListener(radioButtonClickListener);
+
+        RadioButton sidur = (RadioButton)findViewById(R.id.sidur);
+        sidur.setOnClickListener(radioButtonClickListener);
+
+        RadioButton faddur = (RadioButton)findViewById(R.id.faddur);
+        faddur.setOnClickListener(radioButtonClickListener);
+
+        RadioButton doddur = (RadioButton)findViewById(R.id.doddur);
+        doddur.setOnClickListener(radioButtonClickListener);
+
+        RadioButton fadur = (RadioButton)findViewById(R.id.fadur);
+        fadur.setOnClickListener(radioButtonClickListener);
+
+        RadioButton sibdur = (RadioButton)findViewById(R.id.sibdur);
+        sibdur.setOnClickListener(radioButtonClickListener);
+
+
         RadioButton amin = (RadioButton)findViewById(R.id.amin);
         amin.setOnClickListener(radioButtonClickListener2);
 
@@ -97,6 +125,60 @@ public class gamma1 extends AppCompatActivity {
                 txt.setCompoundDrawables(img, null, null, null);
 
             }
+            if(strText.equals("Соль мажор")) {
+                Drawable img = getResources().getDrawable(R.drawable.soldur);
+                img.setBounds(0, 0, 1000, 200);
+                txt.setCompoundDrawables(img, null, null, null);
+
+            }
+            if(strText.equals("Ре мажор")) {
+                Drawable img = getResources().getDrawable(R.drawable.redur);
+                img.setBounds(0, 0, 1000, 200);
+                txt.setCompoundDrawables(img, null, null, null);
+
+            }
+            if(strText.equals("Ля мажор")) {
+                Drawable img = getResources().getDrawable(R.drawable.ladur);
+                img.setBounds(0, 0, 1000, 200);
+                txt.setCompoundDrawables(img, null, null, null);
+
+            }
+            if(strText.equals("Ми мажор")) {
+                Drawable img = getResources().getDrawable(R.drawable.midur);
+                img.setBounds(0, 0, 1000, 200);
+                txt.setCompoundDrawables(img, null, null, null);
+
+            }
+            if(strText.equals("Cи мажор")) {
+                Drawable img = getResources().getDrawable(R.drawable.sidur);
+                img.setBounds(0, 0, 1000, 200);
+                txt.setCompoundDrawables(img, null, null, null);
+
+            }
+            if(strText.equals("Фа-диез мажор")) {
+                Drawable img = getResources().getDrawable(R.drawable.faddur);
+                img.setBounds(0, 0, 1000, 200);
+                txt.setCompoundDrawables(img, null, null, null);
+
+            }
+            if(strText.equals("До-диез мажор")) {
+                Drawable img = getResources().getDrawable(R.drawable.doddur);
+                img.setBounds(0, 0, 1000, 200);
+                txt.setCompoundDrawables(img, null, null, null);
+
+            }
+            if(strText.equals("Фа мажор")) {
+                Drawable img = getResources().getDrawable(R.drawable.fadur);
+                img.setBounds(0, 0, 1000, 200);
+                txt.setCompoundDrawables(img, null, null, null);
+
+            }
+            if(strText.equals("Си-бемоль мажор")) {
+                Drawable img = getResources().getDrawable(R.drawable.sibdur);
+                img.setBounds(0, 0, 1000, 200);
+                txt.setCompoundDrawables(img, null, null, null);
+
+            }
 
         }
     };
@@ -104,7 +186,7 @@ public class gamma1 extends AppCompatActivity {
         @Override
         public void onClick(View v) {
 
-            RadioGroup radioGroup2 = findViewById(R.id.radio);
+            RadioGroup radioGroup2 = findViewById(R.id.radio2);
 
             int checkedRadioButtonId2 = radioGroup2.getCheckedRadioButtonId();
 
@@ -116,7 +198,7 @@ public class gamma1 extends AppCompatActivity {
             if(strText2.equals("Ля минор")) {
                 Drawable img = getResources().getDrawable(R.drawable.aminx);
                 img.setBounds(0, 0, 1000, 200);
-                txt.setCompoundDrawables(img, null, null, null);
+                txt2.setCompoundDrawables(img, null, null, null);
 
             }
         }

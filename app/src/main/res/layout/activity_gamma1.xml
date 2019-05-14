@@ -68,71 +68,71 @@
             android:text="До мажор" />
 
         <RadioButton
-            android:id="@+id/bdur"
+            android:id="@+id/soldur"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Соль мажор" />
 
         <RadioButton
-            android:id="@+id/radioButton2"
+            android:id="@+id/redur"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Ре мажор" />
 
         <RadioButton
-            android:id="@+id/radioButton4"
+            android:id="@+id/ladur"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Ля мажор" />
 
         <RadioButton
-            android:id="@+id/radioButton5"
+            android:id="@+id/midur"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Ми мажор" />
 
         <RadioButton
-            android:id="@+id/radioButton"
+            android:id="@+id/sidur"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Cи мажор" />
 
         <RadioButton
-            android:id="@+id/radioButton3"
+            android:id="@+id/faddur"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Фа-диез мажор" />
 
         <RadioButton
-            android:id="@+id/radioButton6"
+            android:id="@+id/doddur"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="До-диез мажор" />
 
         <RadioButton
-            android:id="@+id/radioButton7"
+            android:id="@+id/fadur"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Фа мажор" />
 
         <RadioButton
-            android:id="@+id/radioButton8"
+            android:id="@+id/sibdur"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Си бемоль мажор" />
+            android:text="Си-бемоль мажор" />
     </RadioGroup>
 
     <RadioGroup
-        android:id="@+id/radio"
+        android:id="@+id/radio2"
         android:layout_width="178dp"
         android:layout_height="304dp"
         app:layout_constraintEnd_toEndOf="parent"

@@ -74,12 +74,38 @@ public class chordton extends AppCompatActivity {
                     }
                 }
         );
+        RadioButton adur = (RadioButton)findViewById(R.id.adur);
+        adur.setOnClickListener(radioButtonClickListener);
+
+        RadioButton gdur = (RadioButton)findViewById(R.id.gdur);
+        gdur.setOnClickListener(radioButtonClickListener);
+
+        RadioButton ddur = (RadioButton)findViewById(R.id.ddur);
+        ddur.setOnClickListener(radioButtonClickListener);
+
+        RadioButton dddur = (RadioButton)findViewById(R.id.dddur);
+        dddur.setOnClickListener(radioButtonClickListener);
+
         RadioButton bdur = (RadioButton)findViewById(R.id.bdur);
         bdur.setOnClickListener(radioButtonClickListener);
 
-        RadioButton cdur = (RadioButton)findViewById(R.id.cdur);
-        cdur.setOnClickListener(radioButtonClickListener);
+        RadioButton lamin= (RadioButton)findViewById(R.id.lamin);
+        lamin.setOnClickListener(radioButtonClickListener2);
+
+        RadioButton mimin= (RadioButton)findViewById(R.id.mimin);
+        mimin.setOnClickListener(radioButtonClickListener2);
+
+        RadioButton fadmin= (RadioButton)findViewById(R.id.fadmin);
+        fadmin.setOnClickListener(radioButtonClickListener2);
+
+        RadioButton soldmin= (RadioButton)findViewById(R.id.soldmin);
+        soldmin.setOnClickListener(radioButtonClickListener2);
+
+        RadioButton ladmin= (RadioButton)findViewById(R.id.ladmin);
+        ladmin.setOnClickListener(radioButtonClickListener2);
+
         txt = findViewById(R.id.textView5);
+        txt2 = findViewById(R.id.textView3);
     }
     private Button interval;
     private Button chat;
@@ -98,8 +124,32 @@ public class chordton extends AppCompatActivity {
             String strText;
             strText = myRadioButton.getText().toString();
 
-            if(strText.equals("B-dur")) {
-                Drawable img = getResources().getDrawable(R.drawable.bdurchord);
+            if(strText.equals("До мажор")) {
+                Drawable img = getResources().getDrawable(R.drawable.domc);
+                img.setBounds(0, 0, 800, 400);
+                txt.setCompoundDrawables(img, null, null, null);
+
+            }
+            if(strText.equals("Соль мажор")) {
+                Drawable img = getResources().getDrawable(R.drawable.solmc);
+                img.setBounds(0, 0, 800, 400);
+                txt.setCompoundDrawables(img, null, null, null);
+
+            }
+            if(strText.equals("Ля мажор")) {
+                Drawable img = getResources().getDrawable(R.drawable.lamc);
+                img.setBounds(0, 0, 800, 400);
+                txt.setCompoundDrawables(img, null, null, null);
+
+            }
+            if(strText.equals("Си мажор")) {
+                Drawable img = getResources().getDrawable(R.drawable.simc);
+                img.setBounds(0, 0, 800, 400);
+                txt.setCompoundDrawables(img, null, null, null);
+
+            }
+            if(strText.equals("До-диез мажор")) {
+                Drawable img = getResources().getDrawable(R.drawable.dodmc);
                 img.setBounds(0, 0, 800, 400);
                 txt.setCompoundDrawables(img, null, null, null);
 
@@ -107,6 +157,50 @@ public class chordton extends AppCompatActivity {
 
         }
     };
-    TextView txt;
+    View.OnClickListener radioButtonClickListener2 = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            RadioGroup  radioGroup = findViewById(R.id.radio2);
+            int checkedRadioButtonId = radioGroup.getCheckedRadioButtonId();
+
+            RadioButton myRadioButton = (RadioButton) findViewById(checkedRadioButtonId);
+
+            String strText2;
+            strText2 = myRadioButton.getText().toString();
+
+            if(strText2.equals("Ля минор")) {
+                Drawable img = getResources().getDrawable(R.drawable.lamin);
+                img.setBounds(0, 0, 800, 400);
+                txt2.setCompoundDrawables(img, null, null, null);
+
+            }
+            if(strText2.equals("Ми минор")) {
+                Drawable img = getResources().getDrawable(R.drawable.mimin);
+                img.setBounds(0, 0, 800, 400);
+                txt2.setCompoundDrawables(img, null, null, null);
+
+            }
+            if(strText2.equals("Фа-диез минор")) {
+                Drawable img = getResources().getDrawable(R.drawable.fadmin);
+                img.setBounds(0, 0, 800, 400);
+                txt2.setCompoundDrawables(img, null, null, null);
+
+            }
+            if(strText2.equals("Соль-диез минор")) {
+                Drawable img = getResources().getDrawable(R.drawable.soldmin);
+                img.setBounds(0, 0, 800, 400);
+                txt2.setCompoundDrawables(img, null, null, null);
+
+            }
+            if(strText2.equals("Ля-диез минор")) {
+                Drawable img = getResources().getDrawable(R.drawable.ladmin);
+                img.setBounds(0, 0, 800, 400);
+                txt2.setCompoundDrawables(img, null, null, null);
+
+            }
+
+        }
+    };
+    TextView txt, txt2;
 
 }

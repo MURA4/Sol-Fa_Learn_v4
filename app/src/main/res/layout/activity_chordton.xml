@@ -55,45 +55,45 @@
 
     <RadioGroup
         android:id="@+id/radio"
-        android:layout_width="241dp"
+        android:layout_width="187dp"
         android:layout_height="255dp"
-        tools:layout_editor_absoluteX="0dp"
+        app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="0dp">
 
         <RadioButton
-            android:id="@+id/cdur"
+            android:id="@+id/ddur"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="C-dur" />
+            android:text="До мажор" />
+
+        <RadioButton
+            android:id="@+id/gdur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Соль мажор" />
+
+        <RadioButton
+            android:id="@+id/adur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ля мажор" />
 
         <RadioButton
             android:id="@+id/bdur"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="B-dur" />
+            android:text="Си мажор" />
 
         <RadioButton
-            android:id="@+id/radioButton2"
+            android:id="@+id/dddur"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="A-dur" />
-
-        <RadioButton
-            android:id="@+id/radioButton4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="D-dur" />
-
-        <RadioButton
-            android:id="@+id/radioButton5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="F-dur" />
+            android:text="До-диез мажор" />
     </RadioGroup>
 
     <TextView
@@ -106,9 +106,73 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radio"
+        app:layout_constraintVertical_bias="0.295" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="40dp"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radio" />
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radio2"
+        android:layout_width="191dp"
+        android:layout_height="256dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/radio"
+        tools:layout_editor_absoluteY="0dp">
+
+        <RadioButton
+            android:id="@+id/lamin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ля минор" />
+
+        <RadioButton
+            android:id="@+id/mimin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ми минор" />
+
+        <RadioButton
+            android:id="@+id/fadmin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Фа-диез минор" />
+
+        <RadioButton
+            android:id="@+id/soldmin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Соль-диез минор" />
+
+        <RadioButton
+            android:id="@+id/ladmin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ля-диез минор" />
+    </RadioGroup>
 
 </android.support.constraint.ConstraintLayout>
