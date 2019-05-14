@@ -175,25 +175,25 @@ public class chordton extends AppCompatActivity {
 
             }
             if(strText2.equals("Ми минор")) {
-                Drawable img = getResources().getDrawable(R.drawable.mimin);
+                Drawable img = getResources().getDrawable(R.drawable.miminc);
                 img.setBounds(0, 0, 800, 400);
                 txt2.setCompoundDrawables(img, null, null, null);
 
             }
             if(strText2.equals("Фа-диез минор")) {
-                Drawable img = getResources().getDrawable(R.drawable.fadmin);
+                Drawable img = getResources().getDrawable(R.drawable.fadminc);
                 img.setBounds(0, 0, 800, 400);
                 txt2.setCompoundDrawables(img, null, null, null);
 
             }
             if(strText2.equals("Соль-диез минор")) {
-                Drawable img = getResources().getDrawable(R.drawable.soldmin);
+                Drawable img = getResources().getDrawable(R.drawable.soldminc);
                 img.setBounds(0, 0, 800, 400);
                 txt2.setCompoundDrawables(img, null, null, null);
 
             }
             if(strText2.equals("Ля-диез минор")) {
-                Drawable img = getResources().getDrawable(R.drawable.ladmin);
+                Drawable img = getResources().getDrawable(R.drawable.ladminc);
                 img.setBounds(0, 0, 800, 400);
                 txt2.setCompoundDrawables(img, null, null, null);
 

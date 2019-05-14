@@ -99,6 +99,35 @@ public class gamma1 extends AppCompatActivity {
         RadioButton amin = (RadioButton)findViewById(R.id.amin);
         amin.setOnClickListener(radioButtonClickListener2);
 
+        RadioButton mimin = (RadioButton)findViewById(R.id.mimin);
+        mimin.setOnClickListener(radioButtonClickListener2);
+
+        RadioButton simin = (RadioButton)findViewById(R.id.simin);
+        simin.setOnClickListener(radioButtonClickListener2);
+
+        RadioButton fadmin = (RadioButton)findViewById(R.id.fadmin);
+        fadmin.setOnClickListener(radioButtonClickListener2);
+
+        RadioButton dodmin = (RadioButton)findViewById(R.id.dodmin);
+        dodmin.setOnClickListener(radioButtonClickListener2);
+
+        RadioButton soldmin = (RadioButton)findViewById(R.id.soldmin);
+        soldmin.setOnClickListener(radioButtonClickListener2);
+
+        RadioButton redmin = (RadioButton)findViewById(R.id.redmin);
+        redmin.setOnClickListener(radioButtonClickListener2);
+
+        RadioButton ladmin = (RadioButton)findViewById(R.id.ladmin);
+        ladmin.setOnClickListener(radioButtonClickListener2);
+
+        RadioButton solmin = (RadioButton)findViewById(R.id.solmin);
+        solmin.setOnClickListener(radioButtonClickListener2);
+
+        RadioButton remin = (RadioButton)findViewById(R.id.remin);
+        remin.setOnClickListener(radioButtonClickListener2);
+
+
+
         txt = findViewById(R.id.textView5);
         txt2 = findViewById(R.id.textView6);
     }
@@ -197,6 +226,60 @@ public class gamma1 extends AppCompatActivity {
 
             if(strText2.equals("Ля минор")) {
                 Drawable img = getResources().getDrawable(R.drawable.aminx);
+                img.setBounds(0, 0, 1000, 200);
+                txt2.setCompoundDrawables(img, null, null, null);
+
+            }
+            if(strText2.equals("Ми минор")) {
+                Drawable img = getResources().getDrawable(R.drawable.mimin);
+                img.setBounds(0, 0, 1000, 200);
+                txt2.setCompoundDrawables(img, null, null, null);
+
+            }
+            if(strText2.equals("Си минор")) {
+                Drawable img = getResources().getDrawable(R.drawable.simin);
+                img.setBounds(0, 0, 1000, 200);
+                txt2.setCompoundDrawables(img, null, null, null);
+
+            }
+            if(strText2.equals("Фа-диез минор")) {
+                Drawable img = getResources().getDrawable(R.drawable.fadmin);
+                img.setBounds(0, 0, 1000, 200);
+                txt2.setCompoundDrawables(img, null, null, null);
+
+            }
+            if(strText2.equals("До-диез минор")) {
+                Drawable img = getResources().getDrawable(R.drawable.dodmin);
+                img.setBounds(0, 0, 1000, 200);
+                txt2.setCompoundDrawables(img, null, null, null);
+
+            }
+            if(strText2.equals("Соль-диез минор")) {
+                Drawable img = getResources().getDrawable(R.drawable.soldmin);
+                img.setBounds(0, 0, 1000, 200);
+                txt2.setCompoundDrawables(img, null, null, null);
+
+            }
+            if(strText2.equals("Ре-диез минор")) {
+                Drawable img = getResources().getDrawable(R.drawable.redmin);
+                img.setBounds(0, 0, 1000, 200);
+                txt2.setCompoundDrawables(img, null, null, null);
+
+            }
+            if(strText2.equals("Ля-диез минор")) {
+                Drawable img = getResources().getDrawable(R.drawable.ladmin);
+                img.setBounds(0, 0, 1000, 200);
+                txt2.setCompoundDrawables(img, null, null, null);
+
+            }
+            if(strText2.equals("Ре минор")) {
+                Drawable img = getResources().getDrawable(R.drawable.remin);
+                img.setBounds(0, 0, 1000, 200);
+                txt2.setCompoundDrawables(img, null, null, null);
+
+            }
+            if(strText2.equals("Соль минор")) {
+                Drawable img = getResources().getDrawable(R.drawable.solmin);
                 img.setBounds(0, 0, 1000, 200);
                 txt2.setCompoundDrawables(img, null, null, null);
 

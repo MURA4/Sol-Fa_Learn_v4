@@ -146,63 +146,63 @@
             android:text="Ля минор" />
 
         <RadioButton
-            android:id="@+id/bdur2"
+            android:id="@+id/mimin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Ми минор" />
 
         <RadioButton
-            android:id="@+id/raaton2"
+            android:id="@+id/simin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Си минор" />
 
         <RadioButton
-            android:id="@+id/radioaon4"
+            android:id="@+id/fadmin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Фа-диез минор" />
 
         <RadioButton
-            android:id="@+id/radautton"
+            android:id="@+id/dodmin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="До-диез минор" />
 
         <RadioButton
-            android:id="@+id/radautton3"
+            android:id="@+id/soldmin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Соль-диез минор" />
 
         <RadioButton
-            android:id="@+id/raon6"
+            android:id="@+id/redmin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Ре-диез минор" />
 
         <RadioButton
-            android:id="@+id/aButton7"
+            android:id="@+id/ladmin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Ля-диез минор" />
 
         <RadioButton
-            android:id="@+id/raaton8"
+            android:id="@+id/remin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Ре минор" />
 
         <RadioButton
-            android:id="@+id/radioaon5"
+            android:id="@+id/solmin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
