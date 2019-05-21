@@ -103,41 +103,155 @@ kek();
                 strText = textView.getText().toString();
                 if(strText.equals("Б53")){
                     if(k == 2){
-                        Drawable img = getResources().getDrawable(R.drawable.b53re);
+                        Drawable img = getResources().getDrawable(R.drawable.reb53);
                         img.setBounds(0, 0, 500, 400);
                         txt.setCompoundDrawables(img, null, null, null);
 
                     }
                     if(k == 1){
-                        Drawable img = getResources().getDrawable(R.drawable.b53do);
+                        Drawable img = getResources().getDrawable(R.drawable.dob53);
                         img.setBounds(0, 0, 500, 400);
                         txt.setCompoundDrawables(img, null, null, null);
 
                     }
                     if(k == 3){
-                        Drawable img = getResources().getDrawable(R.drawable.b53mi);
+                        Drawable img = getResources().getDrawable(R.drawable.mib53);
                         img.setBounds(0, 0, 500, 400);
                         txt.setCompoundDrawables(img, null, null, null);
 
                     }
+                    if(k == 4){
+                        Drawable img = getResources().getDrawable(R.drawable.fab53);
+                        img.setBounds(0, 0, 500, 400);
+                        txt.setCompoundDrawables(img, null, null, null);
+
+                    }
+                    if(k == 5){
+                        Drawable img = getResources().getDrawable(R.drawable.solb53);
+                        img.setBounds(0, 0, 500, 400);
+                        txt.setCompoundDrawables(img, null, null, null);
+
+                    }
+                    if(k == 6){
+                        Drawable img = getResources().getDrawable(R.drawable.lab53);
+                        img.setBounds(0, 0, 500, 400);
+                        txt.setCompoundDrawables(img, null, null, null);
+
+                    }
+                    if(k == 7){
+                        Drawable img = getResources().getDrawable(R.drawable.sib53);
+                        img.setBounds(0, 0, 500, 400);
+                        txt.setCompoundDrawables(img, null, null, null);
+
+                    }
+                    if(k == 8){
+                        Drawable img = getResources().getDrawable(R.drawable.do2b53);
+                        img.setBounds(0, 0, 500, 400);
+                        txt.setCompoundDrawables(img, null, null, null);
+
+                    }
+
                 }
                 if(strText.equals("Б6")){
+                    if(k == 1){
+                        Drawable img = getResources().getDrawable(R.drawable.dob6);
+                        img.setBounds(0, 0, 500, 400);
+                        txt.setCompoundDrawables(img, null, null, null);
+
+                    }
                     if(k == 2){
-                        Drawable img = getResources().getDrawable(R.drawable.b6re);
+                        Drawable img = getResources().getDrawable(R.drawable.reb6);
+                        img.setBounds(0, 0, 500, 400);
+                        txt.setCompoundDrawables(img, null, null, null);
+
+                    }
+                    if(k == 3){
+                        Drawable img = getResources().getDrawable(R.drawable.mib6);
+                        img.setBounds(0, 0, 500, 400);
+                        txt.setCompoundDrawables(img, null, null, null);
+
+                    }
+                    if(k == 4){
+                        Drawable img = getResources().getDrawable(R.drawable.fab6);
+                        img.setBounds(0, 0, 500, 400);
+                        txt.setCompoundDrawables(img, null, null, null);
+
+                    }
+                    if(k == 5){
+                        Drawable img = getResources().getDrawable(R.drawable.solb6);
+                        img.setBounds(0, 0, 500, 400);
+                        txt.setCompoundDrawables(img, null, null, null);
+
+                    }
+                    if(k == 6){
+                        Drawable img = getResources().getDrawable(R.drawable.lab6);
+                        img.setBounds(0, 0, 500, 400);
+                        txt.setCompoundDrawables(img, null, null, null);
+
+                    }
+                    if(k == 7){
+                        Drawable img = getResources().getDrawable(R.drawable.sib6);
+                        img.setBounds(0, 0, 500, 400);
+                        txt.setCompoundDrawables(img, null, null, null);
+
+                    }
+                    if(k == 8){
+                        Drawable img = getResources().getDrawable(R.drawable.do2b6);
                         img.setBounds(0, 0, 500, 400);
                         txt.setCompoundDrawables(img, null, null, null);
 
                     }
 
                 }
-                if(strText.equals("Б64")){
-                    if(k == 2){
-                        Drawable img = getResources().getDrawable(R.drawable.b64re);
+                if(strText.equals("М53")){
+                    if(k == 1){
+                        Drawable img = getResources().getDrawable(R.drawable.dom53);
                         img.setBounds(0, 0, 500, 400);
                         txt.setCompoundDrawables(img, null, null, null);
 
                     }
+                    if(k == 2){
+                        Drawable img = getResources().getDrawable(R.drawable.rem53);
+                        img.setBounds(0, 0, 500, 400);
+                        txt.setCompoundDrawables(img, null, null, null);
 
+                    }
+                    if(k == 3){
+                        Drawable img = getResources().getDrawable(R.drawable.mim53);
+                        img.setBounds(0, 0, 500, 400);
+                        txt.setCompoundDrawables(img, null, null, null);
+
+                    }
+                    if(k == 4){
+                        Drawable img = getResources().getDrawable(R.drawable.fam53);
+                        img.setBounds(0, 0, 500, 400);
+                        txt.setCompoundDrawables(img, null, null, null);
+
+                    }
+                    if(k == 5){
+                        Drawable img = getResources().getDrawable(R.drawable.solm53);
+                        img.setBounds(0, 0, 500, 400);
+                        txt.setCompoundDrawables(img, null, null, null);
+
+                    }
+                    if(k == 6){
+                        Drawable img = getResources().getDrawable(R.drawable.lam53);
+                        img.setBounds(0, 0, 500, 400);
+                        txt.setCompoundDrawables(img, null, null, null);
+
+                    }
+                    if(k == 7){
+                        Drawable img = getResources().getDrawable(R.drawable.sim53);
+                        img.setBounds(0, 0, 500, 400);
+                        txt.setCompoundDrawables(img, null, null, null);
+
+                    }
+                    if(k == 8){
+                        Drawable img = getResources().getDrawable(R.drawable.do2m53);
+                        img.setBounds(0, 0, 500, 400);
+                        txt.setCompoundDrawables(img, null, null, null);
+
+                    }
                 }
             }
         });
