@@ -25,9 +25,6 @@ This project taught me how to:
 - Ship a full-featured app from idea to prototype
 
 > 🔍 **Note**: Developed as part of the **Samsung Innovation Campus** educational program. Not published on Google Play, but fully functional on test devices.
-
-## 📸 Screenshots
-*(Optional: add 2–3 screenshots here when ready)*  
 Example:  
 ![Piano UI](screenshots/piano.png)  
 ![Chat screen](screenshots/chat.png)
