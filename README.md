@@ -24,10 +24,6 @@ This project taught me how to:
 - Handle audio input/output on Android  
 - Ship a full-featured app from idea to prototype
 
-> 🔍 **Note**: Developed as part of the **Samsung Innovation Campus** educational program. Not published on Google Play, but fully functional on test devices.
-Example:  
-![Piano UI](screenshots/piano.png)  
-![Chat screen](screenshots/chat.png)
 
 ---
 Made with 🎶 by [Murat Khasanov](https://linkedin.com/in/murat-khasanov)
